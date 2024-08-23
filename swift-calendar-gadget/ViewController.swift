@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     
     
 }
-
+//Show the start under the date
 extension ViewController: UICalendarViewDelegate {
     func calendarView(_ calendarView: UICalendarView, decorationFor dateComponents: DateComponents) -> UICalendarView.Decoration? {
         let font = UIFont.systemFont(ofSize: 10)
